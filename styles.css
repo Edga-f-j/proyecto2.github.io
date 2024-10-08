@@ -1,0 +1,55 @@
+.row{
+    padding: 4%;
+}
+
+h4{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.card-title{
+    color: rgb(41, 137, 174);
+    text-align: center;
+}
+.card-text{
+    justify-content: center;
+    text-align: justify;
+}
+
+
+
+ /* Cambiar el color de fondo y texto de la navbar */
+ .navbar {
+    background-color: #343a40; /* Color oscuro */
+    font-size: 25px;
+  }
+
+  /* Estilo de los enlaces */
+  .nav-link {
+    color: #ffffff; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    transition: color 0.3s; /* Transición suave al cambiar el color */
+  }
+
+  /* Cambiar color al pasar el mouse */
+  .nav-link:hover {
+    color: #6793bfc2; /* Color más claro al pasar el mouse */
+    transform: scale(1.15);
+    transition: transform 0.3s;
+  }
+
+  /* Sombra de texto */
+  .nav-link {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+  }
+
+  /* Ajustes para el icono */
+  .navbar-brand img {
+    transition: transform 0.3s; /* Transición suave para el icono */
+  }
+
+  /* Aumentar tamaño del icono al pasar el mouse */
+  .navbar-brand:hover img {
+    transform: scale(1.1); /* Escalar el icono */
+  }
